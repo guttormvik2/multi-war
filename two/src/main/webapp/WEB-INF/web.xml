@@ -6,6 +6,13 @@
          id="WebApp_ID"
          version="5.0">
 
+	<!-- Setting project.basedir for Vaadin's development mode -->
+
+	<context-param>
+		<param-name>project.basedir</param-name>
+		<param-value>C:\DeveloperArea\vaadin\multi-war\two</param-value>
+	</context-param>
+
     <!-- Main vaadin servlet -->
 
 	<servlet>
