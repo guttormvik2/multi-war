@@ -18,6 +18,14 @@
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-core</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.0.0</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>

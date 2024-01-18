@@ -3,8 +3,8 @@ package org.vaadin.example;
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
+import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.html.Paragraph;
-import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
@@ -38,6 +38,6 @@ public class MainView extends VerticalLayout {
         // styles.css.
         addClassName("centered-content");
 
-        add(textField, button);
+        add(new H1("Two"), textField, button);
     }
 }
