@@ -9,6 +9,8 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
 
+import util.Test;
+
 /**
  * The main view contains a text field for getting the user name and a button
  * that shows a greeting message in a notification.
@@ -23,7 +25,7 @@ public class MainView extends VerticalLayout {
         // Button click listeners can be defined as lambda expressions
         GreetService greetService = new GreetService();
         Button button = new Button("Say hello", e -> {
-            add(new Paragraph(greetService.greet(textField.getValue())));
+            add(new Paragraph(greetService.greet(textField.getValue() + new Test().test())));
         });
 
         // Theme variants give you predefined extra styles for components.

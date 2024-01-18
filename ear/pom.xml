@@ -4,9 +4,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ptsmc</groupId>
     <artifactId>ear</artifactId>
-    <version>1.0</version>
     <packaging>ear</packaging>
 
     <parent>
@@ -27,6 +25,11 @@
             <groupId>com.ptsmc</groupId>
             <artifactId>two</artifactId>
             <type>war</type>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ptsmc</groupId>
+            <artifactId>util</artifactId>
         </dependency>
 
     </dependencies>

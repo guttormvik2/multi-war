@@ -4,9 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>com.ptsmc</groupId>
     <artifactId>one</artifactId>
-    <version>1.0</version>
     <packaging>war</packaging>
 
     <parent>
@@ -27,6 +25,12 @@
             <artifactId>slf4j-simple</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.ptsmc</groupId>
+            <artifactId>util</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -42,7 +46,7 @@
                 <artifactId>maven-war-plugin</artifactId>
             </plugin>
 
-            <!--
+			<!--
                 Take care of synchronizing java dependencies and imports in
                 package.json and main.js files.
                 It also creates webpack.config.js if not exists yet.
@@ -64,11 +68,11 @@
 
     <profiles>
         <profile>
-            <!-- Production mode is activated using -Pproduction -->
+			<!-- Production mode is activated using -Pproduction -->
             <id>production</id>
 
             <dependencies>
-                <!-- Exclude development dependencies from production -->
+				<!-- Exclude development dependencies from production -->
                 <dependency>
                     <groupId>com.vaadin</groupId>
                     <artifactId>vaadin-core</artifactId>

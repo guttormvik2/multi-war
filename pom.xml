@@ -15,6 +15,7 @@
         <module>ear</module>
         <module>one</module>
         <module>two</module>
+        <module>util</module>
     </modules>
 
     <dependencyManagement>
@@ -38,6 +39,12 @@
                 <groupId>com.ptsmc</groupId>
                 <artifactId>two</artifactId>
                 <type>war</type>
+                <version>1.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.ptsmc</groupId>
+                <artifactId>util</artifactId>
                 <version>1.0</version>
             </dependency>
 
