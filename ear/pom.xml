@@ -37,6 +37,11 @@
             <artifactId>util</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.ptsmc</groupId>
+            <artifactId>widgetset</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

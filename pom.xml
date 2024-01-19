@@ -16,6 +16,7 @@
         <module>one</module>
         <module>two</module>
         <module>util</module>
+        <module>widgetset</module>
     </modules>
 
     <dependencyManagement>
@@ -45,6 +46,12 @@
             <dependency>
                 <groupId>com.ptsmc</groupId>
                 <artifactId>util</artifactId>
+                <version>1.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.ptsmc</groupId>
+                <artifactId>widgetset</artifactId>
                 <version>1.0</version>
             </dependency>
 

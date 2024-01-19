@@ -8,10 +8,10 @@
 
 	<!-- Setting project.basedir for Vaadin's development mode -->
 
-	<context-param>
+	<!--context-param>
 		<param-name>project.basedir</param-name>
 		<param-value>C:\DeveloperArea\vaadin\multi-war\two</param-value>
-	</context-param>
+	</context-param-->
 
     <!-- Main vaadin servlet -->
 
