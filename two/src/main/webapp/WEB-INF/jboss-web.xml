@@ -1,0 +1,4 @@
+<jboss-web>
+    <security-domain>travellerApplicationDomain</security-domain>
+</jboss-web>
+
