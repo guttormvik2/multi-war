@@ -44,12 +44,12 @@
             <url-pattern>/*</url-pattern>
         </web-resource-collection>
         <auth-constraint>
-            <role-name>ptsmc</role-name>
+            <role-name>WEB</role-name>
         </auth-constraint>
     </security-constraint>
 
     <security-role>
-        <role-name>ptsmc</role-name>
+        <role-name>WEB</role-name>
     </security-role>
 
     <login-config>

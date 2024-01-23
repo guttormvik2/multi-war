@@ -39,12 +39,12 @@
             <url-pattern>/*</url-pattern>
         </web-resource-collection>
         <auth-constraint>
-            <role-name>traveller</role-name>
+            <role-name>TRAVELLER</role-name>
         </auth-constraint>
     </security-constraint>
 
     <security-role>
-        <role-name>traveller</role-name>
+        <role-name>TRAVELLER</role-name>
     </security-role>
 
     <login-config>
