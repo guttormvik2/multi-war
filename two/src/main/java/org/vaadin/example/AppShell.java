@@ -9,6 +9,6 @@ import com.vaadin.flow.theme.Theme;
  * and some desktop browsers.
  */
 @PWA(name = "Project Base for Vaadin", shortName = "Project Base")
-@Theme("ptsmc")
+//@Theme("traveller")
 public class AppShell implements AppShellConfigurator {
 }

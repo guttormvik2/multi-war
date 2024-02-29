@@ -1,6 +1,7 @@
 package org.vaadin.example;
 
 import com.vaadin.flow.component.Key;
+import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.html.H1;
@@ -20,6 +21,9 @@ import util.Test;
 public class MainView extends VerticalLayout {
 
     public MainView() {
+    	
+    	UI.getCurrent().getPage().addStyleSheet("styles.css");
+    	
         // Use TextField for standard text input
         TextField textField = new TextField("Your name");
         textField.addClassName("bordered");
